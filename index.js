@@ -4,7 +4,7 @@ const cryptoJS = require('crypto-js');
 
 const bUrl = ' https://fapi.binance.com';
 const endPoint = '/fapi/v1/klines';
-const params = 'symbol=DOGEUSDT&interval=1m&limit=4';
+const params = 'symbol=DOGEUSDT';
 const url = bUrl + endPoint + '?' + params;
 
 const getLastBar = async () => {
